@@ -152,6 +152,7 @@ img {
 .hero .container {
     padding-top: 200px;
     padding-bottom: 200px;
+    margin: 0% auto;
 }
 
 .hero-title {
@@ -320,13 +321,12 @@ img {
 
 .section.team {
     background-color: var(--team-color);
-    margin-top: 94px;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .container.our-team {
-    margin-top: 50px;
+    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container .team {
@@ -349,6 +349,8 @@ img {
 }
 
 .team.list {
+    margin-top: 50px;
+
     background-color: var(--team-color);
 }
 
