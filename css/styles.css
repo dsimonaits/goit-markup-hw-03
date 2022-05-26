@@ -468,12 +468,14 @@ img {
 /* footer */
 
 .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-
     background-color: var(--grey-color);
 }
 
+.footer .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0% auto;
+}
 
 .footer-logo {
     font-family: raleway, sans-serif;
