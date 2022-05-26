@@ -12,7 +12,7 @@
 }
 
 * {
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 
 .body {
@@ -49,6 +49,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 /* page-header */
 
@@ -166,6 +167,7 @@ img {
 
 /* buttons */
 .hero-button {
+    min-width: 200px;
     display: block;
     padding: 10px 22px 10px 22px;
     margin-left: auto;
@@ -246,7 +248,11 @@ img {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* visuali hidden */
@@ -270,7 +276,6 @@ img {
 }
 
 .container.our-advantages {
-    margin-top: 94px;
 }
 
 .advantages .item {
@@ -300,6 +305,9 @@ img {
 
 /* work list */
 
+.our-work {
+    padding-top: 0px;
+}
 
 .container .work {
     margin-top: 50px;
@@ -314,22 +322,11 @@ img {
     margin-right: 30px;
 }
 
-.work-title {
-    margin-top: 94px;
-}
-
-
 /* team */
 
 
 .section.team {
     background-color: var(--team-color);
-}
-
-.container.our-team {
-    margin-top: 94px;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .container .team {
@@ -382,11 +379,6 @@ img {
 }
 
 /* projects portfolio */
-
-.section.portfolio {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 
 .section-title.our-portfolio {
     position: absolute;
