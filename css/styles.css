@@ -95,10 +95,7 @@ img {
 }
 
 .site-nav-link {
-    display: block;
-
-
-    color: var(--secondary-color);
+   color: var(--secondary-color);
     
     font-weight: 500;
     font-size: 14px;
@@ -125,8 +122,6 @@ img {
 }
 
 .auth-nav-link {
-    display: block;
-   
     color: inherit;
     
     font-weight: 500;
@@ -275,9 +270,6 @@ img {
     display: flex;
 }
 
-.container.our-advantages {
-}
-
 .advantages .item {
     margin-right: 30px;
     width: calc((100% - 90px) / 4);
@@ -404,7 +396,7 @@ img {
 
 
 .container.our-projects {
-    margin-top: 34px;
+    margin-top: 50px;
 }
 
 .container .projects {
@@ -421,27 +413,16 @@ img {
     text-decoration: none;
 }
 
-.projects-link .title {
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 8px;
-}
-
-.projects-link .text {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
-.projects .item {
-    padding-bottom: 20px;
-
-    outline: 1px solid #EEEEEE;
-}
-
 .projects .item {
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.projects-card-wrapper {
+    padding: 20px 24px 20px 24px;
+
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .projects .item:nth-child(3n) {
