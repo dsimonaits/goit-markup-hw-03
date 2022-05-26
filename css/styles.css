@@ -146,13 +146,12 @@ img {
 /* hero */
 
 .hero {
-    background-color: rgba(47, 48, 58, 1);
+    background-color: #2F303A
 }
 
 .hero .container {
     padding-top: 200px;
     padding-bottom: 200px;
-    margin: 0% auto;
 }
 
 .hero-title {
@@ -307,7 +306,14 @@ img {
 .container .work {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+}
+
+.work.list {
+    width: calc((100% -60px) /3);
+}
+
+.work .item {
+    margin-right: 30px;
 }
 
 .work-title {
