@@ -294,6 +294,7 @@ img {
 }
 
 .advantages-text {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -303,12 +304,9 @@ img {
 
 
 .container .work {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-}
-
-.container.our-work {
-    margin-top: 50px;
 }
 
 .work-title {
@@ -476,7 +474,6 @@ img {
 .footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin: 0% auto;
 }
 
 .footer-logo {
