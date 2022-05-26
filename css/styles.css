@@ -54,6 +54,8 @@ img {
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .page-header .container {
@@ -93,8 +95,6 @@ img {
 
 .site-nav-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 
     color: var(--secondary-color);
@@ -125,8 +125,6 @@ img {
 
 .auth-nav-link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
    
     color: inherit;
     
