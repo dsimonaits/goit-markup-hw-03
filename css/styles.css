@@ -140,12 +140,10 @@ img {
 /* hero */
 
 .hero {
-    background-color: #2F303A
-}
-
-.hero .container {
     padding-top: 200px;
     padding-bottom: 200px;
+    
+    background-color: #2F303A
 }
 
 .hero-title {
@@ -306,13 +304,11 @@ img {
     display: flex;
 }
 
-.work.list {
-    width: calc((100% -60px) /3);
-}
 
-.work .item {
+.work .item:not(:last-child) {
     margin-right: 30px;
 }
+
 
 /* team */
 
@@ -328,12 +324,12 @@ img {
 .team .item {
     width: calc((100% -90px) /4);
     margin-right: 30px;
-    padding-bottom: 30px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
     background-color: var(--white-color);
+    text-align: center;
 }
 
 .team .item:nth-child(4n) {
@@ -346,14 +342,9 @@ img {
     background-color: var(--team-color);
 }
 
-.team-title {
+.team .team-name-wrapper {
     margin-top: 30px;
-}
-
-.team-title,
-.team-text {
-    text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .team p {
@@ -362,6 +353,8 @@ img {
 }
 
 .team h3 {
+    margin-bottom: 10px;
+    
     color: var(--secondary-color);
     
     font-weight: 500;
@@ -395,7 +388,7 @@ img {
 }
 
 
-.container.our-projects {
+.projects {
     margin-top: 50px;
 }
 
@@ -425,6 +418,10 @@ img {
     border-top: none;
 }
 
+.projects-card-wrapper p {
+    margin-top: 4px;
+}
+
 .projects .item:nth-child(3n) {
     margin-right: 0px;
 }
@@ -446,14 +443,12 @@ img {
 /* footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--grey-color);
     margin-right: auto;
     margin-left: auto;
-}
-
-.footer .container {
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -483,7 +478,7 @@ text-decoration: none;
     color: var(--accent-color);
 }
 
-.address {
+.address.list {
     margin-top: 20px;
 }
 
