@@ -110,6 +110,14 @@ img {
   color: var(--accent-color);
 }
 
+/* .site-nav .active::after {
+  display: block;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-color);
+} */
+
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
