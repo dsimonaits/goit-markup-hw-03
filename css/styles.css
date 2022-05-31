@@ -10,10 +10,6 @@
   --adress-color: #ffffff99;
 }
 
-* {
-  /* outline: 1px solid tomato; */
-}
-
 .body {
   background-color: var(--white-color);
   color: var(--main-color);
